@@ -1,7 +1,6 @@
 package org.studyeasy;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -21,7 +20,8 @@ public class Main {
         arr1.search(74);
         arr1.deleteValueInArray(2,1);
         arr1.traverse2dArray();
-
+        arr1.deleteValueInArray(2,2);
+        arr1.traverse2dArray();
 
     }
 
